@@ -1,4 +1,4 @@
-# from modules import bypass
+from modules import bypass
 from modules import check_route, resolve_chain, analyze_packet
 from modules import encrypt_payload, generate_keypair
 from modules import random_mac, random_ttl, craft_ip_header, craft_tcp_syn
