@@ -1,16 +1,13 @@
 # Purple Storm v2.1
 
-## Purpose
-Purple Storm v2.1 is a software suite for conducting load testing of network infrastructure in controlled laboratory environments.
+## Description
 
-## System Requirements
-- OS: Windows 10/11 (x64)
-- Python: 3.7 — 3.11
-- Privileges: Administrator (for raw sockets)
-- Dependencies: see requirements.txt
+Purple Storm v2.1 is a network load testing tool. Supports 8 traffic generation methods (UDP, SYN, HTTP, DNS amplification, Slowloris, NTP, ICMP, brute force). Works with proxy pool, automatic rotation, MAC/TTL spoofing, payload encryption. Color TUI, logging, ESC stop.
 
 ## Installation
+
 ```bash
-git clone <repository>
+git clone https://github.com/example/purple_storm.git
 cd purple_storm
 pip install -r requirements.txt
+python main.py
