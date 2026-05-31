@@ -9,5 +9,5 @@ Purple Storm v2.1 is a network load testing tool. Supports 8 traffic generation 
 ```bash
 git clone https://github.com/example/FMP-DDOS.git
 cd FMP-DDOS
-pip install -r requirements.txt
+install.bat
 python main.py
